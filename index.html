@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML wireframe</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Portfolio | Daniel Nichols</title>
 </head>
 <body>
-    <nav role="navigation">
+    <nav>
+
         <div class="mobileNav">
                <ul>
                     <li><a href="#bio"><i class="fas fa-user"></i><br>About Me
@@ -22,32 +25,40 @@
                 </li>
                </ul>
             </div>
+
         <div class="navlinks hide left">
             <ul class="navlinks hide">
-                <a href="#bio"><li>About Me</li></a>
-                <a href="#skills-list"><li>Skills</li></a>
-                <a href="#projects-list"><li>Projects</li></a>
+                <li><a href="#bio">About Me</a></li>
+                <li><a href="#skills-list">Skills</a></li>
+                <li><a href="#projects-list">Projects</a></li>
             </ul>
         </div>
+
         <div class="navlinks hide right">
             <a href="mailto:herrnichols@gmail.com"><i class="far fa-envelope"></i></a>
             <a href="https://www.linkedin.com/in/daniel-nichols-3564b982?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2zVh%2F5gyTg6XxfcDaHwVkg%3D%3D"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/DanielCNichols"><i class="fab fa-github-square"></i></a>
         </div>
+
     </nav>
-    <main role="main">
-        <header role="banner">
+    <main>
+        <header>
+
             <div class='header-img'>
-                <img src="images\cropped.png" alt="Nichols-headshot">
+                <img src="images/cropped.png" alt="Nichols-headshot">
             </div>
+
             <h1>Daniel Nichols</h1>
+
             <p>Future Full-Stack Web Developer</p>
         </header>
 
         <section class="profile about-me" id="bio">
+
             <header>
                 <h2>About Me</h2>
             </header>
+
             <div>
                 <p>My name is Daniel Nichols and I am an aspiring Full-Stack Developer based in the Raleigh/Durham area. A man of many skills, I began my career in small business, then moving into non-profit management before entering the field of public education as a middle school English teacher. </p> 
 
@@ -64,31 +75,36 @@
             <header>
                 <h2>Skills</h2>
             </header>
+
            <div class="thirds">
+
                 <div class="col">
-                    <ul><span>Front End</span>
+                    <p>Front End</p>
+                    <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                         <li>Jquery</li>
                     </ul>
                 </div>
+
                 <div class="col">
-                        <ul><span>Back End </span>
-                            <li>These</li>
-                            <li>skills</li>
-                            <li>coming</li>
-                            <li>soon</li>
+                    <p>Back End</p>
+                        <ul>
+                            <li>Coming soon!</li>
                         </ul>
                 </div>
+
                 <div class="col">
-                    <ul><span>General Skills </span>
+                    <p>General Skills</p>
+                    <ul>
                         <li>Management</li>
                         <li>Staff Training</li>
                         <li>Community Engagement</li>
                         <li>Collaboration</li>
                     </ul>
                 </div>
+
             </div>
         </section>
 
@@ -99,44 +115,52 @@
                 </header>
                 <h3>Quiz App</h3>
                 <div class="half">
-                <img src="images\quiz-app-scaled.png" alt="">
-                <div class="project-buttons">
-                        <a href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/"><button>Live</button></a>
-                       <a href="https://github.com/thinkful-ei-gecko/daniel-shawn-quiz-app"><button>View code</button></a> 
-                    </div></div>
+                    <img src="images/quiz-app-scaled.png" alt="Appalachian Trail Quiz screenshot">
+
+                    <div class="project-buttons">
+                        <a class="button" href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/">Live</a>
+                        <a href="https://github.com/thinkful-ei-gecko/daniel-shawn-quiz-app">View code</a>
+                    </div>
+                </div>
+
                 <div class = "project description">
                     <p>Inspired by my own experiences during a successful five-month ‘thru-hike’ of the Appalachian Trail, this quiz app tests your knowledge of AT culture and lore.</p>
                     
                     <p>This app was completed in collaboration with Shawn Collette as part of a paired project spanning two days, and was my first foray into using JavaScript and Jquery to build an interactive user experience.</p> 
                     
                 </div>
-            <h3>Technologies Used<h3>    
-            <div class="icons">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3"></i>
-                <i class="fab fa-js"></i>
-            </div>
+
+                <h3>Technologies Used</h3>    
+
+                    <div class="icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-js"></i>
+                    </div>
             </div>
         </section>
         
         <section class="profile contact" id="contact">
+
             <header>
                 <h2>Contact</h2>
             </header>
+
             <p>I love to talk shop anytime, so please feel free to reach out to me at my email, or head over to my LinkedIn and Github pages to see more what I am up to these days.</p>
+
             <div class='social-icons'>
                 <a href="mailto:herrnichols@gmail.com"><i class="far fa-envelope"></i><br>Email</a>
                 <a href="https://www.linkedin.com/in/daniel-nichols-3564b982?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2zVh%2F5gyTg6XxfcDaHwVkg%3D%3D"><i class="fab fa-linkedin-in"></i><br>LinkedIn</a>
                 <a href="https://github.com/DanielCNichols"><i class="fab fa-github-square"></i><br>Github</a>
             </div>
+
         </section>
     </main>
-    <footer role="content-info">
+
+    <footer>
          <p>2019 Daniel Nichols</p>
     </footer>
    
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/05d1e27fc9.js"></script>
-    <script src="index.js"></script>
 </body>
 </html>

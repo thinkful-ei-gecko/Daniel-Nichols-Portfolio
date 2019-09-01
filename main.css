@@ -131,7 +131,7 @@ img {
   padding: 10px;
 }
 
-.skills ul span {
+.skills p {
   font-weight: bold;
   margin-bottom: 10px;
   font-size: 1.1em;
@@ -159,16 +159,17 @@ a:visited {
   margin: 5px auto;
 }
 
-.project button {
-  border-radius: 3px;
+.project a {
+  text-align: center;
   background-color: #173753;
-  font-size: 1.1em;
   font-family: 'lato', sans-serif;
   color: #f4f4f4;
   display: block;
   width: 40%;
   height: 45px;
+  padding: 5px 0;
   margin: 20px auto;
+  cursor: pointer;
 }
 
 .icons {
