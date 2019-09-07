@@ -10,6 +10,8 @@ button {
   cursor: pointer;
 }
 
+
+
 body {
   font-family: 'lato', sans-serif; 
   font-size: 20px;
@@ -154,12 +156,21 @@ a {
 a:visited {
   color: inherit;
 }
-.project  img {
+
+
+.half {
+  display: block;
+}
+
+.project-image a {
+  width: 100%;
+}
+.project-image a img {
   width: 100%;
   margin: 5px auto;
 }
 
-.project a {
+.project-buttons a {
   text-align: center;
   background-color: #173753;
   font-family: 'lato', sans-serif;
@@ -171,6 +182,19 @@ a:visited {
   margin: 20px auto;
   cursor: pointer;
 }
+
+.project-buttons button {
+  width: 70%;
+}
+
+.project {
+  width: 100%;
+}
+
+.half img {
+  width: 50%;
+}
+
 
 .icons {
   display: flex;
@@ -218,7 +242,19 @@ footer {
   width: 100%;
 }
 
+/* THE FOLLOWING RULESETS ARE FOR TABLET DISPLAY */
+
 @media screen and (min-width: 450px) {
+
+  .header-img img {
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+  }
+
+  /* ========================================
+  PROFILE STYLES
+  ======================================== */
   .profile {
   width: 80%;
   margin: 0 auto;
@@ -233,18 +269,46 @@ footer {
     width: 33%;
   }
 
-  .project img {
+  .half {
+    display: block;
+  }
+  
+  .project-image a {
+    width: 100%;
+  }
+  .project-image a img {
     width: 100%;
     margin: 5px auto;
   }
   
-  .project button {
+  .project-buttons a {
+    text-align: center;
+    background-color: #173753;
+    font-family: 'lato', sans-serif;
+    color: #f4f4f4;
     display: block;
-    width: 60%;
-    height: 55px;
+    width: 40%;
+    height: 45px;
+    padding: 5px 0;
     margin: 20px auto;
+    cursor: pointer;
   }
   
+  .project-buttons button {
+    width: 70%;
+  }
+  
+  .project {
+    width: 100%;
+  }
+  
+  .half img {
+    width: 50%;
+  }
+  
+  /* =============================
+  FOOTER STYLES
+  ============================= */
 
   .icons i {
     font-size: 30px;
@@ -254,15 +318,9 @@ footer {
     font-size: 30px;
   }
   
-
-  .header-img img {
-    width: 150px;
-    height: 170px;
-    border-radius: 50%;
-  }
-
 }
 
+/* THE FOLLOWING ARE FOR DESKTOP DISPLAYS */
 
 @media screen and (min-width: 800px) {
 
@@ -278,7 +336,10 @@ footer {
     border-radius: 50%;
     margin: 50px auto 20px auto;
   }
-
+ 
+/* ====================================================
+NAV STYLES
+==================================================== */
 
   nav {
     position: fixed;
@@ -329,45 +390,17 @@ footer {
     width: 50%;
     justify-content: flex-end;
   }
+/* 
+  ======================================
+  PROFILE STYLES
+  ====================================== */
 
   .profile {
     width: 60%;
     margin: 10px auto;
   }
+
   
-
-  .half {
-    display: flex;
-  }
-
-  .half .project-buttons{
-    width: 100%;
-    flex-direction: column;
-    justify-content: right;
-    padding-top: 15px;
-  }
-
-  .project-buttons button {
-    width: 70%;
-  }
-
-  .project {
-    width: 100%;
-  }
-
-  .half img {
-    width: 50%;
-  }
-
-  footer {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    height: 60px;
-  }
-
   .skills ul {
     list-style: none;
   }
@@ -383,17 +416,54 @@ footer {
   .thirds .col {
     width: 33%;
   }
+  
 
+  .half {
+    display: flex;
+    align-items: center;
+  }
 
+  .half .project-buttons{
+    width: 50%;
+    flex-direction: column;
+    justify-content: right;
+    word-wrap: break-word;
+  }
+
+  .project-buttons a {
+    min-width: 100px;
+    width: 70%;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .project-image {
+    width: 50%;
+    min-width: 275px;
+  }
 
   .icons i {
     font-size: 40px;
   }
 
+
+  /* =========================
+  FOOTER STYLES
+  ========================= */
+
+  footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+  }
+
   .social-icons i {
     font-size: 40px;
   } 
-
-
 
 }
