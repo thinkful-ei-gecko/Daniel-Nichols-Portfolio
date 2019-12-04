@@ -1,169 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <title>Portfolio | Daniel Nichols</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
+      <div class="mobileNav">
+        <ul>
+          <li>
+            <a href="#bio"><i class="fas fa-user"></i><br />About Me </a>
+          </li>
+          <li>
+            <a href="#projects-list"
+              ><i class="fas fa-eye"></i><br />Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact"><i class="far fa-envelope"></i><br />Contact </a>
+          </li>
+        </ul>
+      </div>
 
-        <div class="mobileNav">
-               <ul>
-                    <li><a href="#bio"><i class="fas fa-user"></i><br>About Me
-                    </a>
-                </li>
-                    <li><a href="#projects-list"><i class="fas fa-eye"></i><br>Projects
-                    </a>
-                </li>
-                    <li><a href="#contact"><i class="far fa-envelope"></i><br>Contact
-                    </a>
-                </li>
-               </ul>
-            </div>
+      <div class="navlinks hide left">
+        <ul class="navlinks hide">
+          <li><a href="#bio">About Me</a></li>
+          <li><a href="#skills-list">Skills</a></li>
+          <li><a href="#projects-list">Projects</a></li>
+        </ul>
+      </div>
 
-        <div class="navlinks hide left">
-            <ul class="navlinks hide">
-                <li><a href="#bio">About Me</a></li>
-                <li><a href="#skills-list">Skills</a></li>
-                <li><a href="#projects-list">Projects</a></li>
-            </ul>
-        </div>
-
-        <div class="navlinks hide right">
-            <a href="mailto:herrnichols@gmail.com"><i class="far fa-envelope"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/daniel-nichols-3564b982?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2zVh%2F5gyTg6XxfcDaHwVkg%3D%3D"><i class="fab fa-linkedin-in"></i></a>
-            <a target="_blank" href="https://github.com/DanielCNichols"><i class="fab fa-github-square"></i></a>
-        </div>
-
+      <div class="navlinks hide right">
+        <a href="mailto:herrnichols@gmail.com"
+          ><i class="far fa-envelope"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/daniel-nichols-3564b982?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2zVh%2F5gyTg6XxfcDaHwVkg%3D%3D"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a target="_blank" href="https://github.com/DanielCNichols"
+          ><i class="fab fa-github-square"></i
+        ></a>
+      </div>
     </nav>
     <main>
+      <header>
+        <div class="header-img">
+          <img src="images/cropped.png" alt="Nichols-headshot" />
+        </div>
+
+        <h1>Daniel Nichols</h1>
+
+        <p>Full-Stack Web Developer</p>
+      </header>
+
+      <section class="profile about-me" id="bio">
         <header>
-
-            <div class='header-img'>
-                <img src="images/cropped.png" alt="Nichols-headshot">
-            </div>
-
-            <h1>Daniel Nichols</h1>
-
-            <p>Future Full-Stack Web Developer</p>
+          <h2>About Me</h2>
         </header>
 
-        <section class="profile about-me" id="bio">
+        <div>
+          <p>
+            My name is Daniel Nichols and I am an aspiring Full-Stack Developer
+            based in the Raleigh/Durham area. A man of many skills, I began my
+            career in small business, then moved into non-profit management
+            before entering the field of public education as a middle school
+            English teacher.
+          </p>
 
-            <header>
-                <h2>About Me</h2>
-            </header>
+          <p>
+            As you might have guessed from my diverse background, I am a firm
+            believer in the value of pushing one’s limits and seeking
+            opportunities for personal and professional growth. In programming,
+            I see a vast and ever-expanding field full of opportunities to
+            challenge myself to be a better developer as well as to pass my
+            knowledge along to fellow colleagues.
+          </p>
 
-            <div>
-                <p>My name is Daniel Nichols and I am an aspiring Full-Stack Developer based in the Raleigh/Durham area. A man of many skills, I began my career in small business, then moved into non-profit management before entering the field of public education as a middle school English teacher. </p> 
+          <p>
+            Outside of programming, I enjoy learning new languages (I have a
+            soft spot for German) and my latest hobby, brewing. I am also a
+            musician and avid hiker, completing a “thru-hike” of the Appalachian
+            Trail in 2013.
+          </p>
 
-                <p>As you might have guessed from my diverse background, I am a firm believer in the value of pushing one’s limits and seeking opportunities for personal and professional growth. In programming, I see a vast and ever-expanding field full of opportunities to challenge myself to be a better developer as well as to pass my knowledge along to fellow colleagues.</p> 
-                 
-                <p> Outside of programming, I enjoy learning new languages (I have a soft spot for German) and my latest hobby, brewing. I am also a musician and avid hiker, completing a “thru-hike” of the Appalachian Trail in 2013.</p> 
-                    
-                <p>Below you will find a sampling of some of my favorite projects. Please feel free to contact me or view my resume for more information regarding my work experience.</p> 
+          <p>
+            Below you will find a sampling of some of my favorite projects.
+            Please feel free to contact me or view my resume for more
+            information regarding my work experience.
+          </p>
+        </div>
+      </section>
 
-             </div>
-        </section>
+      <section class="profile skills" id="skills-list">
+        <header>
+          <h2>Skills</h2>
+        </header>
 
-        <section class="profile skills" id="skills-list">
-            <header>
-                <h2>Skills</h2>
-            </header>
+        <div class="thirds">
+          <div class="col">
+            <p>Front End</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Jquery</li>
+              <li>React</li>
+            </ul>
+          </div>
 
-           <div class="thirds">
+          <div class="col">
+            <p>Back End</p>
+            <ul>
+              <li>NodeJs</li>
+              <li>Express</li>
+              <li>PostgreSQL</li>
+              <li>Knex</li>
+            </ul>
+          </div>
 
-                <div class="col">
-                    <p>Front End</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Jquery</li>
-                    </ul>
-                </div>
+          <div class="col">
+            <p>General Skills</p>
+            <ul>
+              <li>Management</li>
+              <li>Staff Training</li>
+              <li>Community Engagement</li>
+              <li>Collaboration</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-                <div class="col">
-                    <p>Back End</p>
-                        <ul>
-                            <li>Coming soon!</li>
-                        </ul>
-                </div>
-
-                <div class="col">
-                    <p>General Skills</p>
-                    <ul>
-                        <li>Management</li>
-                        <li>Staff Training</li>
-                        <li>Community Engagement</li>
-                        <li>Collaboration</li>
-                    </ul>
-                </div>
-
+      <section class="profile projects" id="projects-list">
+        <div class="profile projects project">
+          <header>
+            <h2>Projects</h2>
+          </header>
+          <h3>Appalachian Trail Quiz</h3>
+          <div class="half">
+            <div class="project-image">
+              <a
+                target="_blank"
+                href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/"
+                ><img
+                  src="images/quiz-app-scaled.png"
+                  alt="Appalachian Trail Quiz screenshot"
+              /></a>
             </div>
-        </section>
-
-        <section class='profile projects' id="projects-list">
-            <div class="profile projects project">
-                <header>
-                    <h2>Projects</h2>
-                </header>
-                <h3>Appalachian Trail Quiz</h3>
-                <div class="half">
-                    <div class="project-image">
-                        <a target="_blank" href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/"><img src="images/quiz-app-scaled.png" alt="Appalachian Trail Quiz screenshot"></a>
-                    </div>    
-                    <div class="project-buttons">
-                        <a target="_blank" class="button" href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/">Live</a>
-                        <a target="_blank" href="https://github.com/thinkful-ei-gecko/daniel-shawn-quiz-app">View code</a>
-                    </div>
-                </div>
-
-                <div class = "project description">
-                    <p>Inspired by my own experiences during a successful five-month ‘thru-hike’ of the Appalachian Trail, this quiz app tests your knowledge of AT culture and lore.</p>
-                    
-                    <p>This app was completed in collaboration with Shawn Collette as part of a paired project spanning two days, and was my first foray into using JavaScript and Jquery to build an interactive user experience.</p> 
-                    
-                </div>
-
-                <h3>Technologies Used</h3>    
-
-                    <div class="icons">
-                        <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3"></i>
-                        <i class="fab fa-js"></i>
-                    </div>
+            <div class="project-buttons">
+              <a
+                target="_blank"
+                class="button"
+                href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/"
+                >Live</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/thinkful-ei-gecko/daniel-shawn-quiz-app"
+                >View code</a
+              >
             </div>
-        </section>
-        
-        <section class="profile contact" id="contact">
+          </div>
 
-            <header>
-                <h2>Contact</h2>
-            </header>
+          <div class="project description">
+            <p>
+              Inspired by my own experiences during a successful five-month
+              ‘thru-hike’ of the Appalachian Trail, this quiz app tests your
+              knowledge of AT culture and lore.
+            </p>
 
-            <p>I love to talk shop anytime, so please feel free to reach out to me at my email, or head over to my LinkedIn and Github pages to see more of what I am up to these days.</p>
+            <p>
+              This app was completed in collaboration with Shawn Collette as
+              part of a paired project spanning two days, and was my first foray
+              into using JavaScript and Jquery to build an interactive user
+              experience.
+            </p>
+          </div>
 
-            <div class='social-icons'>
-                <a href="mailto:herrnichols@gmail.com"><i class="far fa-envelope"></i><br>Email</a>
-                <a target="_blank" href="https://www.linkedin.com/in/daniel-nichols-3564b982?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2zVh%2F5gyTg6XxfcDaHwVkg%3D%3D"><i class="fab fa-linkedin-in"></i><br>LinkedIn</a>
-                <a target="_blank" href="https://github.com/DanielCNichols"><i class="fab fa-github-square"></i><br>Github</a>
-                <a target="_blank" href="images/Daniel-Nichols-Resume.pdf"><i class="fas fa-file-alt"></i><br>Resume</a>
+          <h3>Technologies Used</h3>
+
+          <div class="icons">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3"></i>
+            <i class="fab fa-js"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="profile projects">
+        <div class="profile projects project">
+          <h3>MarkIt</h3>
+          <div class="half">
+            <div class="project-image">
+              <a
+                target="_blank"
+                href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/"
+                ><img
+                  src="images/quiz-app-scaled.png"
+                  alt="MarkIt bookmark application screenshot"
+              /></a>
             </div>
+            <div class="project-buttons">
+              <a
+                target="_blank"
+                class="button"
+                href="ADD THE LINK TO THE LIVE VERSION"
+                >Live</a
+              >
+              <a
+                target="_blank"
+                href="ADD THE LINK TO THE REPO HERE"
+                >View code</a
+              >
+            </div>
+          </div>
 
-        </section>
+          <div class="project description">
+            <p>
+              MarkIt is a reddit-inspired bookmarks app that allows users to save their favorite websites, and 
+
+              features a rating system as well as the ability to for a user to filter visible listings by minimum rating. 
+            </p>
+
+            <p>
+            My first solo project! From humble beginnings... <br/> 
+              Completed over the course of three days, MarkIt also represents my first time
+              working with a third-party API to store and retrieve user input. Using jQuery to manage
+              the state of the application was instructive, and great preparation for approaching React in later projects. 
+            </p>
+          </div>
+
+          <h3>Technologies Used</h3>
+
+          <div class="icons">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3"></i>
+            <i class="fab fa-js"></i>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="profile projects">
+        <div class="profile projects project">
+          <h3>Totspots</h3>
+          <div class="half">
+            <div class="project-image">
+              <a
+                target="_blank"
+                href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/"
+                ><img
+                  src="images/quiz-app-scaled.png"
+                  alt="Totspots application screenshot"
+              /></a>
+            </div>
+            <div class="project-buttons">
+              <a
+                target="_blank"
+                class="button"
+                href="ADD THE LINK TO THE LIVE VERSION"
+                >Live</a
+              >
+              <a
+                target="_blank"
+                href="ADD THE LINK TO THE REPO HERE"
+                >View code</a
+              >
+            </div>
+          </div>
+
+          <div class="project description">
+            <p>
+            Totspots is a reviews and trip-planning app that helps parents to find kid-friendly places and events to hang out in their town. With Totspots, parents can find need-to-know information such as:</p>
+              <ul>
+                <li>Are there changing tables here?</li>
+                <li>Is it stroller accessible?</li>
+                <li>Are there kid's specials?</li>
+              </ul>
+            <p>All ratings and reviews are user-generated and vetted by the community through an upvote system. 
+            </p>
+            <p>
+            My first full-stack deployment, Totspots was inspired by my experiences as a new father, and much of the functionality took form over several conversations with fellow new parents in my neighborhood. Presently, the project only contains points of interest in Durham, NC (a wonderful place to be!), but there are plans for expansion in the near future. 
+            </p>
+          </div>
+
+          <h3>Technologies Used</h3>
+            
+          <div class="icons">
+            <i class="fab fa-react"></i>  
+            <i class="fab fa-node-js"></i>
+            <i class="fas fa-database"></br><span class="icon-font">PostgreSQL</span></i>
+            <i class="fab fa-css3"></i>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="profile projects">
+        <div class="profile projects project">
+          <h3>CleverGerman</h3>
+          <div class="half">
+            <div class="project-image">
+              <a
+                target="_blank"
+                href="https://thinkful-ei-gecko.github.io/daniel-shawn-quiz-app/"
+                ><img
+                  src="images/quiz-app-scaled.png"
+                  alt="CleverGerman Application Screenshot"
+              /></a>
+            </div>
+            <div class="project-buttons">
+              <a
+                target="_blank"
+                class="button"
+                href="ADD THE LINK TO THE LIVE VERSION"
+                >Live</a
+              >
+              <a
+                target="_blank"
+                href="ADD THE LINK TO THE REPO HERE"
+                >View code</a
+              >
+            </div>
+          </div>
+
+          <div class="project description">
+            <p>
+              Kannst du Deutsch? Soon! CleverGerman is a spaced-repetition application that helps students master basic German vocabulary. As users are introduced to new words, the app assesses their proficiency with each word and adapts to give students more practice on tough-to-learn words. 
+
+          <p>CleverGerman was created in collaboration with my collegue EJ Gonzalez as part of a five-day challenge to create a full-stack application utilizing a linked-list data structure to implement a spaced-repetiton algorithm. 
+            </p>
+          </div>
+
+          <h3>Technologies Used</h3>
+            
+          <div class="icons">
+            <i class="fab fa-react"></i>  
+            <i class="fab fa-node-js"></i>
+            <i class="fas fa-database"></br><span class="icon-font">PostgreSQL</span></i>
+            <i class="fab fa-css3"></i>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="profile contact" id="contact">
+        <header>
+          <h2>Contact</h2>
+        </header>
+
+        <p>
+          I love to talk shop anytime, so please feel free to reach out to me at
+          my email, or head over to my LinkedIn and Github pages to see more of
+          what I am up to these days.
+        </p>
+
+        <div class="social-icons">
+          <a href="mailto:herrnichols@gmail.com"
+            ><i class="far fa-envelope"></i><br />Email</a
+          >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/daniel-nichols-3564b982?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2zVh%2F5gyTg6XxfcDaHwVkg%3D%3D"
+            ><i class="fab fa-linkedin-in"></i><br />LinkedIn</a
+          >
+          <a target="_blank" href="https://github.com/DanielCNichols"
+            ><i class="fab fa-github-square"></i><br />Github</a
+          >
+          <a target="_blank" href="images/Daniel-Nichols-Resume.pdf"
+            ><i class="fas fa-file-alt"></i><br />Resume</a
+          >
+        </div>
+      </section>
     </main>
 
     <footer>
-         <p>2019 Daniel Nichols</p>
+      <p>2019 Daniel Nichols</p>
     </footer>
-   
+
     <script src="https://kit.fontawesome.com/05d1e27fc9.js"></script>
-</body>
+  </body>
 </html>
