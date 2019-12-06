@@ -242,6 +242,9 @@ footer {
   width: 100%;
 }
 
+.icon-font {
+  font-size: 12px;
+}
 /* THE FOLLOWING RULESETS ARE FOR TABLET DISPLAY */
 
 @media screen and (min-width: 450px) {
