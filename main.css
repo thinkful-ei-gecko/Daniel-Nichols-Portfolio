@@ -197,6 +197,7 @@ a:visited {
 
 
 .icons {
+  font-family: 'lato', sans-serif; 
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -206,6 +207,9 @@ a:visited {
   font-size: 30px;
 } 
 
+.icon-font {
+  font-family: 'lato', sans-serif;
+}
 h3 {
   text-align: center;
 }
@@ -222,6 +226,7 @@ h3 {
 
 
 .social-icons {
+  font-family: 'lato', sans-serif; 
   width: 100%;
   display: flex;
   justify-content: space-evenly;
